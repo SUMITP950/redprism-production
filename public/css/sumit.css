@@ -1,0 +1,353 @@
+/* profile edit start*/
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0.25rem;
+  margin-left: 15px;
+}
+/* my byddy startbhfg*/
+.small-search {
+  height: 35px !important;
+  font-size: 14px !important;
+}
+/* sample resume start */
+.badge {
+  margin-right: 10px !important;
+}
+
+.resume-image {
+  width: 100% !important;
+  height: 45vh !important;
+}
+.card-out-border {
+  border: 1px solid #000 !important;
+  border-radius: 10px;
+  padding-top: 8px;
+}
+/* page training start */
+.crdimg {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.card-img-top {
+  width: 262px;
+  height: 193px;
+}
+/* page internship start */
+.apply-btn-intern {
+  padding: 5px 8px;
+  background-color: var(--head);
+  font-weight: 649;
+  font-size: 10px !important;
+  border-radius: 4px;
+  border: none;
+}
+
+.share-btn-intern {
+  padding: 5px 8px;
+  background-color: var(--light-yellow);
+  font-weight: 649;
+  font-size: 10px !important;
+  border-radius: 4px;
+  border: none;
+}
+.whatsapp-img-intern {
+  height: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .dn {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .dnm {
+    display: none !important;
+  }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} /* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.line-reduce{ white-space: nowrap;
+  width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --skyblue: #007bff;
+  --sky: #17a2b8;
+  --red: #dc3545;
+  --black: #000;
+  --DarkBlue: #00008b;
+  --light-yellow: #fdf8e9;
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.font-19 {
+  font-size: 19px;
+}
+.page-set {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  overflow: hidden;
+}
+.font-jav {
+  font-family: Javaneseo;
+}
+.font-myr {
+  font-family: Myriad Pro;
+  letter-spacing: 0.7px;
+  font-weight: bold;
+}
+
+.btn-landing {
+  border: 2px solid#71b131 !important;
+  padding: 10px 90px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  background-color: #c8f39c;
+}
+.btn-landing:hover {
+  background-color: #b1e37d;
+}
+.btn-pink {
+  background-color: var(--pink);
+  color: var(--white);
+}
+.btn-pink:hover {
+  background-color: #f3c5da;
+  color: var(--black);
+}
+/*start reg side bar */
+
+.pindicator {
+  margin-top: 218px !important;
+  position: sticky;
+  background-color: #edf2f6;
+  display: flex;
+  margin: 2rem auto 0;
+  width: 30rem;
+  transform: rotate(90deg);
+}
+.pindicator .bullet {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+.tns90 {
+  transform: rotate(270deg);
+}
+.pindicator .bullet::before,
+.pindicator .bullet::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.5rem;
+  top: 1.25rem;
+  transform: translate3d(0, 0, -1px);
+}
+.pindicator .bullet::before {
+  background-color: lightgray;
+  width: 100%;
+}
+.pindicator .bullet::after {
+  background-color: black;
+  transition: opacity 0.25s ease-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.pindicator .bullet:first-child::before,
+.pindicator .bullet:first-child::after {
+  left: 50%;
+  width: 50%;
+}
+.pindicator .bullet:last-child::before,
+.pindicator .bullet:last-child::after {
+  width: 50%;
+}
+
+.pindicator .icon1 {
+  background-color: lightgray;
+  border-radius: 100%;
+  color: transparent;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: inline-block;
+  height: 2em;
+  line-height: 2;
+  text-align: center;
+  transition: background-color 0.25s ease-out;
+  width: 2em;
+}
+.pindicator .text {
+  color: lightgray;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  transition: background-color 0.25s ease-out;
+}
+.pindicator .past .icon1,
+.pindicator .current .icon1 {
+  background-color: black;
+  color: white;
+}
+
+.pindicator .past::after,
+.pindicator .current::after {
+  opacity: 1;
+}
+
+.pindicator .past .text,
+.pindicator .current .text,
+.pindicator .next .text {
+  color: black;
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.font-19 {
+  font-size: 19px;
+}
+.page-set {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  overflow: hidden;
+  height: 100vh;
+}
+.font-jav {
+  font-family: Javaneseo;
+}
+.font-myr {
+  font-family: Myriad Pro;
+  letter-spacing: 0.7px;
+  font-weight: bold;
+}
+
+/*end reg side bar */
+.jcc {
+  justify-content: space-around !important;
+}
+
+/* internship start */
+.dataoveri {
+  white-space: nowrap;
+  width: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.border-i {
+  border: 2px solid #000 !important;
+}
+/* internship end */
+
+/* Buddy Surch Start  from fitness site*/
+
+.select2-container--open .select2-dropdown {
+  background: #f8f8f8;
+  padding: 7px;
+  border: 1px solid #ebebeb;
+}
+
+.select2-container--open .select2-dropdown--below {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.select2-container--open .select2-dropdown {
+  left: 0;
+}
+.select2-dropdown {
+  border: none;
+  border-radius: 0px;
+  z-index: 8;
+}
+.bigdrop {
+  min-width: 196px !important;
+}
+.select2-dropdown {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  z-index: 1051;
+}
+
+/* Buddy Surch End */
+
+/* job surch start */
+
+.apply-btn {
+  padding: 5px 8px;
+  background-color: var(--head);
+  font-weight: 649;
+  font-size: 17px !important;
+  border-radius: 4px;
+  border: none;
+}
+
+.share-btn {
+  padding: 5px 8px;
+  background-color: var(--light-yellow);
+  font-weight: 649;
+  font-size: 17px !important;
+  border-radius: 4px;
+  border: none;
+}
+
+.whatsapp-img {
+  height: 25px;
+}
+
+.thead-pink {
+  background-color: var(--light-yellow);
+}
+
+thead {
+  text-align: center;
+}
+
+tbody {
+  justify-content: center;
+  text-align: center;
+}
+
+.table-borderless {
+  padding: 0px 100px;
+  background-color: var(--white);
+  font-size: 20px;
+}
+
+.body-color {
+  background-color: var(--white);
+}
+
+/* job surch end */
+
+/* otp Start */
+.login-bg-img-otp {
+  background-image: url(https://www.su.edu/wp-content/uploads/2021/01/iStock-1180210837-1.jpg);
+}
